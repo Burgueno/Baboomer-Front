@@ -1,0 +1,32 @@
+export default {
+  inputRoot: {
+    backgroundColor: '#FBF9FF',
+    borderRadius: '4px',
+    width: '280px',
+    height: '34px',
+    color: 'rgba(14, 14, 14, 0.5)',
+    fontFamily: 'CircularStd',
+    fontSize: '14px',
+    fontWeight: 300,
+    lineHeight: '17px',
+    textAlign: 'left',
+    padding: '8px 16px',
+    marginTop: '8px',
+  },
+  send: {
+    backgroundColor: '#48D7BE',
+    color: '#FFFFFF',
+    fontFamily: 'CircularStd',
+    fontSize: '14px',
+    fontWeight: 500,
+    letterSpacing: '0.22px',
+    lineHeight: '17px',
+    textAlign: 'left',
+    textTransform: 'capitalize',
+    width: '100%',
+    margin: '24px 0 0',
+    '&:hover': {
+      backgroundColor: '#48D7BE',
+    },
+  },
+};
